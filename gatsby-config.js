@@ -4,7 +4,24 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Tiago Sciencia`,
+    siteTitleAlt: `Tiago Sciencia - Personal website`,
+    siteHeadline: `Tiago Sciencia - On the road`,
+    siteUrl: `https://tiago-sciencia-site.netlifiy.com`,
+    siteDescription: `Project Management`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@tiagosciencia`,
+    externalLinks: [
+      {
+        name: `Twitter`,
+        url: `https://twitter.com/tiagosciencia`,
+      },
+      {
+        name: `Instagram`,
+        url: `https://www.instagram.com/tiagosciencia`,
+      },
+    ],
     navigation: [
       {
         title: `Blog`,
@@ -13,6 +30,14 @@ module.exports = {
       {
         title: `About`,
         slug: `/about`,
+      },
+      {
+        title: `Projects`,
+        slug: `/projects`,
+      },
+      {
+        title: `Contact`,
+        slug: `/Contact`,
       },
     ],
   },
