@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         title: `Contact`,
-        slug: `/Contact`,
+        slug: `/contact`,
       },
     ],
   },
